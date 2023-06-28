@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  font-size: 36px;
+}
+
+.col-left {
+  height: calc(90vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-left .nav {
+  flex: 1;
+}
+
+.card .info{
+  cursor: pointer;
+}
+
+.card .card-title{
+  height: 70px;
+}
+
+.modal-body .img{
+  text-align: center;
+}
+.modal-body img{
+  width: 400px;
+}
+
+tbody .img {
+  overflow: hidden;
+}
+
+tbody .img img {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+}
